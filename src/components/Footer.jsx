@@ -2,7 +2,7 @@ import React from 'react'
 import './footer.css'
 import SocialMedia from '../utils/SocialMedia'
 
-const Footer = () => {
+const Footer = (nameSocial) => {
     return (
         <footer>
             <div className="footer-container">

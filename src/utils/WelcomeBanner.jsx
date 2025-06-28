@@ -4,9 +4,9 @@ const WelcomeBanner = () => {
     return (
         <div className="container-info">
             <section className="container-title">
-                <h1>Hi, I'm Alejandro Quiceno Perez</h1>
-                <p>I am a software developer, technology lover. I am committed to continuous improvement.
-                    <br /> <span>This is my portafolio!</span>
+                <h1>Hola, Soy Alejandro Quiceno Perez</h1>
+                <p>Soy un desarrollador de software, apasionado por la tecnología. Estoy comprometido con la mejora continua.
+                    <br /> <span>Este es mi portafolio!</span>
                 </p>
             </section>
             <section>
