@@ -10,12 +10,15 @@ const Header = () => {
             <header>
                 <nav className="navbar">
                     <div className="header-logo">
-                        <img src="/src/assets/img/img-alejo-caricatura.jpg" alt="Logo-Alejo" />
+                        <img src="./img/img-alejo-caricatura.jpg" alt="Logo-Alejo" />
                             <a href="#projects" id="text_Animation">
                                 <AnimateText text={"Software - Development"} />
                             </a>
                     </div>
-                    <RedesSociales />
+                    <div className="header-links">
+                        <RedesSociales />
+                    </div>
+                    
                 </nav>
             </header>
         </div>

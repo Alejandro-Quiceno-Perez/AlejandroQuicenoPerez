@@ -11,7 +11,7 @@ const WelcomeBanner = () => {
             </section>
             <section>
                 <div className="container-img">
-                    <img src="./src/assets/img/Soft-Alejo-fondo.png" alt="Alejandro Quiceno Perez" />
+                    <img src="./img/Soft-Alejo-fondo.png" alt="Alejandro Quiceno Perez" />
                 </div>
             </section>
         </div>

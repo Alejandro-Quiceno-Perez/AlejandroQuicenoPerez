@@ -11,3 +11,22 @@ html {
   font-family: "Playwrite DE Grund", cursive;
   scroll-behavior: smooth;
 }
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+/* TODO: Personalizar la barra de desplazamiento */
+
+body::-webkit-scrollbar {
+    width: 5px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #0E0E28;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #3e3e3e72;
+}
