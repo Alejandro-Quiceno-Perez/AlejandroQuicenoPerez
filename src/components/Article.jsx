@@ -1,5 +1,5 @@
 import React from 'react'
-import './article.css'
+import '/src/styles/article.css'
 import WelcomeBanner from '../utils/WelcomeBanner'
 import AboutMe from '../utils/AboutMe'
 import Skills from '../utils/Skills'

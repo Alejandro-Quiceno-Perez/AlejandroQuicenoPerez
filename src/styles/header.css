@@ -44,7 +44,7 @@ header {
 }
 
 #text_Animation:hover span {
-    color: #d40dd9;
+    color: rgb(0, 225, 255);
     text-shadow: 0 0 5px #fb00ff6b, 0 0 1px, 0 0 10px #fb00ff6b;
 }
 
@@ -60,7 +60,7 @@ header {
 
 .header-links ul li {
     list-style: none;
-    transition: 0.2s all;
+    transition: 0.3s ease-in-out;
 }
 
 .header-links ul li:hover {

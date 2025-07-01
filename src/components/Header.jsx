@@ -1,5 +1,5 @@
 import React from 'react'
-import './Header.css'
+import '/src/styles/header.css'
 import AnimateText from '../utils/AnimateText.jsx'
 import RedesSociales from '../utils/SocialMedia.jsx'
 

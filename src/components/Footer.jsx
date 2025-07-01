@@ -1,5 +1,5 @@
 import React from 'react'
-import './footer.css'
+import '/src/styles/footer.css'
 import SocialMedia from '../utils/SocialMedia'
 
 const Footer = (nameSocial) => {

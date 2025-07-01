@@ -31,7 +31,7 @@ footer {
     flex-direction: column;
     text-align: center;
     text-decoration: none;
-    color: #FFC107;
+    color: #fff;
     font-size: 2rem;
     transition: all 0.2s;
 }
@@ -42,7 +42,7 @@ footer {
 
 .social-media li a:hover{
     transform: scale(1.1);
-    color: #ffc1077e;
+    color: #ffffff8e;
 }
 
 .copy {
