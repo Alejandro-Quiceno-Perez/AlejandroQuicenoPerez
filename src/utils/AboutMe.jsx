@@ -1,5 +1,6 @@
 import React from 'react'
 import shortAboutMe from '../assets/data/shortAboutMe'
+import { Link } from 'react-router-dom'
 
 const AboutMe = () => {
     return (
@@ -9,7 +10,7 @@ const AboutMe = () => {
                     <div key={index} className='about-me'>
                         <h2>{about.title}</h2>
                         <p>{about.shortDescription}</p>
-                        <a href="http://">Ver más...</a>
+                        <Link to={`/aboutPage`} className='verMas'>Ver mas...</Link>
                     </div>
                     
                 ))

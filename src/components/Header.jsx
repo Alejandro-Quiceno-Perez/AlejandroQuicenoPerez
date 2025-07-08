@@ -2,6 +2,7 @@ import React from 'react'
 import '/src/styles/header.css'
 import AnimateText from '../utils/AnimateText.jsx'
 import RedesSociales from '../utils/SocialMedia.jsx'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
     
@@ -11,9 +12,9 @@ const Header = () => {
                 <nav className="navbar">
                     <div className="header-logo">
                         <img src="./img/img-alejo-caricatura.jpg" alt="Logo-Alejo" />
-                            <a href="#projects" id="text_Animation">
+                            <Link to={`/`} id="text_Animation">
                                 <AnimateText text={"Software - Development"} />
-                            </a>
+                            </Link>
                     </div>
                     <div className="header-links">
                         <RedesSociales />
