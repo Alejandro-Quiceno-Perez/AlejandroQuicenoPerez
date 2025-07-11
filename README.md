@@ -148,8 +148,8 @@ La aplicación estará disponible en `http://localhost:5173/` (o el puerto que i
 
 ## 📬 Contacto
 
-- 📧 Email: [alejoquicenop@gmail.com](mailto:alejoquicenop@gmail.com)
-- 💼 LinkedIn: [https://linkedin.com/in/alejandroquiceno](https://linkedin.com/in/alejandroquiceno)
+- 📧 Email: [alejo.perez2905@gmail.com](mailto:alejo.perez2905@gmail.com)
+- 💼 LinkedIn: [https://www.linkedin.com/in/alejandro-quiceno-p%C3%A9rez/](https://www.linkedin.com/in/alejandro-quiceno-p%C3%A9rez/)
 
 ---
 
