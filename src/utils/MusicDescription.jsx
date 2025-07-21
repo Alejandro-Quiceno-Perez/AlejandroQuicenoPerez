@@ -13,7 +13,9 @@ const MusicDescription = () => {
 
             <div className='music-images'>
                 {/* <img src="/img/cv-76.jpg" alt="Baterista en concierto" /> */}
-                <img src="/img/cv-97.jpg" alt="Baterista en ensayo" />
+                <a href="https://www.instagram.com/alejo_drums02/">
+                    <img src="./img/cv-97.jpg" alt="Baterista en ensayo" />
+                </a>
             </div>
         </div>
     )

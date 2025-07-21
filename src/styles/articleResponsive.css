@@ -1,0 +1,333 @@
+/* ================================
+   MEDIA QUERIES RESPONSIVE DESIGN
+   ================================ */
+
+/* Pantallas menores a 1576px */
+
+@media (max-width: 1576px) {
+
+    /* ? About me */
+    .about-me h2 {
+        font-size: 2.6rem;
+    }
+
+    .about-me p {
+        font-size: 1.3rem;
+    }
+
+    .verMas {
+        font-size: 1.3rem;
+    }
+
+    .container-skills h2 {
+        font-size: 2.6rem;
+    }
+
+    .skill-link {
+        font-size: 1.3rem;
+        width: 70px;
+        height: 30px;
+    }
+
+    /* ! CARDS PROYECTS */
+    .cards-projects {
+        width: 80%;
+        height: auto;
+    }
+
+    .cards .card {
+        height: 14rem;
+        width: 22rem;
+    }
+}
+
+/* Pantallas menores a 1400px */
+@media (max-width: 1460px) {
+
+    /* Welcome Banner */
+
+    .container-title h1 {
+        font-size: 3.4rem;
+    }
+
+    .container-img img {
+        width: 300px;
+    }
+
+    /* ? About me */
+    .about-me h2 {
+        font-size: 2.4rem;
+    }
+
+    .about-me p {
+        font-size: 1.3rem;
+    }
+
+    .verMas {
+        font-size: 1.3rem;
+    }
+
+    .container-skills h2 {
+        font-size: 2.4rem;
+    }
+
+    .skill-link {
+        font-size: 1.3rem;
+        width: 70px;
+        height: 30px;
+    }
+
+    .skill-card {
+        margin-top: 3rem;
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+        border: 1px solid rgb(0, 0, 0);
+        border-radius: 10px;
+        padding: 1rem;
+        width: 140px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .skill-card:hover {
+        transform: scale(1.05);
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    .skill-card img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .skill-title {
+        font-size: 1.3rem;
+        margin: 0 1.2rem;
+    }
+
+
+
+    /* ! CARDS PROYECTS */
+    .projects-info h3 {
+        font-size: 2.6rem;
+    }
+
+    .projects-info p {
+        font-size: 1.6rem;
+    }
+
+    .cards-projects {
+        width: 85%;
+    }
+
+    .cards .card {
+        width: 18rem;
+        height: 13rem;
+    }
+}
+
+/* Pantallas menores a 1000px */
+@media (max-width: 1250px) {
+
+    /* ? About me */
+
+    .container-about-me {
+        /* background-color: turquoise; */
+        border-right: 1px solid #ffffff41;
+        padding-left: 3rem;
+        width: 50%;
+        height: 40vh;
+    }
+
+    .about-me h2 {
+        font-size: 2.4rem;
+    }
+
+    .about-me p {
+        font-size: 1.2rem;
+    }
+
+    .verMas {
+        font-size: 1.2rem;
+    }
+
+    .container-skills h2 {
+        font-size: 2.4rem;
+    }
+
+    .container-skills {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        width: 50%;
+        height: 40vh;
+        /* background-color: yellowgreen; */
+    }
+
+    .skill-link {
+        font-size: 1.2rem;
+        width: 65px;
+        height: 28px;
+    }
+
+    /* ! CARDS PROYECTS */
+
+    .container-projects {
+        width: 100%;
+        height: 100%;
+    }
+
+    .projects-info h3 {
+        font-size: 2.2rem;
+    }
+
+    .projects-info p {
+        font-size: 1.5rem;
+    }
+
+    .cards-projects {
+        flex-direction: column;
+        width: 90%;
+        padding-bottom: 5rem;
+    }
+
+    .cards {
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .cards .card {
+        width: 18rem;
+        height: 12rem;
+    }
+}
+
+@media (max-width: 970px) {
+
+    .container-info {
+        /* background-color: turquoise; */
+        margin: 0 auto;
+        padding: 10rem 0;
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10rem;
+    }
+
+    .container-title {
+        /* background-color: crimson; */
+        text-align: center;
+        /* text-align: justify; */
+        width: 80%;
+    }
+
+    .container-img {
+        background-color: rgb(0, 225, 255);
+        position: relative;
+        left: 20px;
+    }
+
+
+    .container-img img {
+        position: relative;
+        top: -20px;
+        left: -20px;
+        width: 300px;
+    }
+
+    .container-about {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-about-me {
+        /* background-color: turquoise; */
+        border-right: none;
+        padding-right: 0;
+        padding-top: 10%;
+        padding-bottom: 0;
+        width: 60%;
+        height: 100%;
+    }
+
+    .about-me h2 {
+        font-size: 3rem;
+    }
+
+    .about-me p {
+        font-size: 1.5rem;
+    }
+
+    .container-skills {
+        border-left: none;
+        padding-left: 2rem;
+        padding: 10% 0;
+        width: 60%;
+        height: 100%;
+        /* background-color: yellowgreen; */
+    }
+
+    .container-skills h2 {
+        font-size: 3rem;
+    }
+
+    .skill-link {
+        font-size: 1.5rem;
+        cursor: pointer;
+        border-radius: 10px;
+        padding: 1%;
+        width: 80px;
+        height: 35px;
+        transition: .2s all;
+    }
+}
+
+/* Pantallas menores a 760px (tablets y móviles) */
+@media (max-width: 768px) {
+
+    /* ? About me */
+    .about-me h2 {
+        font-size: 2rem;
+    }
+
+    .container-skills h2 {
+        font-size: 2rem;
+    }
+
+    /* ! CARDS PROYECTS */
+    .projects-info h3 {
+        font-size: 2rem;
+    }
+
+    .projects-info p {
+        font-size: 1.4rem;
+        padding: 0 1rem;
+    }
+
+    .projects-info p span {
+        font-size: 1.4rem;
+    }
+
+    .cards-projects {
+        width: 100%;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards .card {
+        width: 90%;
+        height: auto;
+        padding: 1rem;
+    }
+}

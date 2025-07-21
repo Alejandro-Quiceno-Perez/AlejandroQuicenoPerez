@@ -58,7 +58,7 @@
 /* !About me */
 
 .container-about-me {
-
+    /* background-color: turquoise; */
     border-right: 1px solid #ffffff41;
     padding-right: 2rem;
     width: 40%;
@@ -104,6 +104,7 @@
     padding-left: 2rem;
     width: 40%;
     height: 40vh;
+    /* background-color: yellowgreen; */
 }
 
 .container-skills h2 {
@@ -133,6 +134,7 @@
 }
 
 .container-skills ul {
+    
     margin-left: 2.6rem;
     list-style: none;
     padding: 0;
@@ -173,6 +175,7 @@
 }
 
 .container--skill {
+    /* background-color: tomato; */
     display: flex;
     align-items: center;
     justify-content: space-around;

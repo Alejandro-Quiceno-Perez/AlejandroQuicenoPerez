@@ -1,5 +1,6 @@
 import React from 'react'
 import '/src/styles/article.css'
+import '/src/styles/articleResponsive.css'
 import WelcomeBanner from '../utils/WelcomeBanner'
 import AboutMe from '../utils/AboutMe'
 import Skills from '../utils/Skills'

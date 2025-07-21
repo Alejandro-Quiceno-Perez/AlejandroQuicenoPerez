@@ -1,3 +1,4 @@
+/* Estilos generales */
 header {
     background-color: #0e0e28;
     color: #fff;
@@ -12,19 +13,19 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    position: relative;
 }
 
 .header-logo {
-    width: 50%;
     display: flex;
-    justify-content: start;
     align-items: center;
     gap: 30px;
 }
 
 .header-logo img {
-    width: 3vw;
-    height: 6vh;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -32,15 +33,11 @@ header {
 #text_Animation {
     text-decoration: none;
     letter-spacing: 5px;
-    font-size: 3rem;
+    font-size: 2.8rem;
     font-weight: 700;
+    color: #ffffff;
     cursor: pointer;
     transition: 0.5s;
-}
-
-#text_Animation span {
-    color: #ffffff;
-    transition: 0.3s all;
 }
 
 #text_Animation:hover span {
@@ -49,13 +46,15 @@ header {
 }
 
 .header-links {
-    width: 50%;
+    display: flex;
+    align-items: center;
 }
 
 .header-links ul {
     display: flex;
-    justify-content: end;
     gap: 30px;
+    margin: 0;
+    padding: 0;
 }
 
 .header-links ul li {
@@ -70,10 +69,12 @@ header {
 .header-links ul li a {
     color: #ffffff;
     text-decoration: none;
-    font-size: 2.5rem;
+    font-size: 2.8rem;
 }
 
 .header-links ul li a:hover {
     font-weight: bold;
     color: #ffffff8e;
 }
+
+
