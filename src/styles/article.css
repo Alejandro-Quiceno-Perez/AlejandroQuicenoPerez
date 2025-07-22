@@ -82,6 +82,10 @@
     text-align: justify;
 }
 
+.about-me-tags {
+    display: none;
+}
+
 .verMas {
     font-weight: bold;
     font-size: 1.5rem;

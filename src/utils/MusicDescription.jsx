@@ -1,4 +1,5 @@
 import React from 'react'
+import image from '/img/cv-97.jpg';
 
 const MusicDescription = () => {
     return (
@@ -14,7 +15,7 @@ const MusicDescription = () => {
             <div className='music-images'>
                 {/* <img src="/img/cv-76.jpg" alt="Baterista en concierto" /> */}
                 <a href="https://www.instagram.com/alejo_drums02/">
-                    <img src="./img/cv-97.jpg" alt="Baterista en ensayo" />
+                    <img src={image} alt="Baterista en ensayo" />
                 </a>
             </div>
         </div>

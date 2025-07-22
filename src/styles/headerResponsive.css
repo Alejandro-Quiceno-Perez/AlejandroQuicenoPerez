@@ -1,3 +1,10 @@
+@media (max-height: 800px) {
+    header {
+        height: 15vh;
+    }
+
+}
+
 @media (max-width: 970px) {
     header {
         height: 20vh;
@@ -22,5 +29,33 @@
 
     .header-links {
         display: none;
+    }
+}
+
+@media (max-width: 690px) {
+    #text_Animation {
+        font-size: 2.8rem;
+    }
+
+    #text_Animation span {
+        color: rgb(0, 225, 255);
+        text-shadow: 0 0 5px #fb00ff6b, 0 0 1px, 0 0 10px #fb00ff6b;
+    }
+}
+
+@media (max-width: 385px) {
+
+    .navbar {
+        width: 100%;
+        padding: 1rem;
+    }
+    .header-logo img {
+        display: none;
+    }
+
+    #text_Animation {
+        font-size: 2.5rem;
+        text-align: center;
+        letter-spacing: 1px;
     }
 }

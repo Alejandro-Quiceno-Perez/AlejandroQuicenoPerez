@@ -9,7 +9,8 @@ const AboutMe = () => {
                 shortAboutMe.map((about, index) => (
                     <div key={index} className='about-me'>
                         <h2>{about.title}</h2>
-                        <p>{about.shortDescription}</p>
+                        <p className='about-me-description'>{about.shortDescription}</p>
+                        <p className='about-me-tags'>{about.tags}</p>
                         <Link to={`/aboutPage`} className='verMas'>Ver mas...</Link>
                     </div>
                     

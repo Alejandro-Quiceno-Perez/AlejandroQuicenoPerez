@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import '../styles/aboutPage.css'
+import '../styles/aboutPagesResponsive.css'
 import aboutPage from '../assets/data/aboutPage'
 import ShortDescription from './ShortDescription'
 import MoreDescription from './MoreDescription'

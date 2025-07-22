@@ -331,3 +331,71 @@
         padding: 1rem;
     }
 }
+
+@media (max-width: 385px) {
+    .container-info {
+        width: 100%;
+        gap: 5rem;
+    }
+
+    .container-title {
+        width: 100%;
+        padding: 0 1rem;
+        /* background-color: rgb(0, 225, 255); */
+    }
+
+    .container-title h1 {
+        font-size: 2rem;
+    }
+
+    .container-title p {
+        font-size: 1.5rem;
+    }
+
+    .container-img {
+        background-color: rgb(0, 225, 255);
+    }
+
+
+    .container-img img {
+        width: 250px;
+    }
+
+    .container-about-me {
+        padding: 2rem;
+        width: 100%;
+    }
+
+    .about-me-description {
+        display: none;
+    }
+
+    .about-me-tags {
+        display: block;
+        font-size: 1.2rem;
+        margin-top: 1rem;
+    }
+
+    .container-skills {
+        padding: 2rem;
+        width: 100%;
+        /* background-color: yellowgreen; */
+    }
+
+    .container-skills h2 {
+        font-size: 2rem;
+        margin-bottom: 1rem;
+        margin-left: 0;
+    }
+
+    .container-skills ul {
+        margin-left: 0;
+    }
+
+
+    .container--skill {
+        justify-content:space-between;
+        /* background-color: yellowgreen; */
+        margin-bottom: 2rem;
+    }
+}
